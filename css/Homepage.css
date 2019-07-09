@@ -1,0 +1,17 @@
+a{
+  color: yellowgreen
+}
+
+header{
+  position: relative;
+  width: 100%;
+  min-width: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url("http://inn.spb.ru/images/400/DSC100409979.jpg");
+  background-position: center;
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+background-size: cover;
+-o-background-size:cover:
+}
