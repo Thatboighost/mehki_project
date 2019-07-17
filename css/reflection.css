@@ -1,0 +1,19 @@
+.heading-container,.keyterms-container,.mane-section,.main-subsection,.reflecion-container,.img-container,.links-container,.helpful-container{
+  border: 5px solid yellowgreen ;
+}
+/* body{
+  background-color: red;
+} */
+.keyterms-container{
+  height: 350px;
+  width: 20%;
+
+
+}
+.mane-section{
+  display: flex;
+
+}
+.main-subsection{
+  width:80% 
+}

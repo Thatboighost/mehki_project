@@ -1,83 +1,177 @@
+<!-- Boileerplate -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en" dir="ltr">
 
-    <title>My page title</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="utf-8">
+  <title>Mehki's Home Page </title>
+  <link rel="stylesheet" href="css/Homepage.css">
+</head>
 
-    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
-  </head>
+<body>
 
-  <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-
-    <header>
-      <h1>Header</h1>
-    </header>
-
-    <nav>
+  <nav id="Navigation" class= " nav-section">
+    <a href="#" <div class="header-logo">
+      <img src="" alt="">
+      LOGO
+      </div>
+    </a>
+    <div class="Navigation-links">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">About me </a></li>
+        <li><a href="#">Giving back</a></li>
+        <li><a href="#">Learned</a></li>
+        <li><a href="#">Contacts
+            <ul>
+              <li><a href="#">terms</a></li>
+              <li><a href="#">reflection </a></li>
+              <li><a href="#">mybrothers</a></li>
+
+            </ul>
+          </a></li>
+          <li><a href="#">Contacts</a></li>
+
       </ul>
+    </div>
+  </nav>
+  <header id="header-container" class="header-section">
+    <h1>Mehki Miggins </h1>
+    <h2> Summer 1</h2>
+    <h3>Rich 3</h3>
+    <p>Join me on my journey</p>
+    <a href="#">Get Involved </a>
+  </header>
+  <section id="intro-container" class="intro-section ">
 
-      <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+    <section id="introSection" class="section-container intro-container">
+    <img src=""/>
+    <h2 class="section-heading">Completely synergize resource taxing relationships</h2>
+    <p class="text-light">Welcome Sentence(s)</p>
+    </section>
 
-      <form>
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
-      </form>
-    </nav>
+  </section>
+  <section id="aboutme -container" class="aboutme-section ">
 
-    <!-- Here is our page's main content -->
-    <main>
+    <section id="aboutMeSection" class="section-container about-me-container">
+      <img src="" alt="">
+      <h2 class="section-header">About Me</h2>
+      <p class="lead text-muted">Holisticly <a href="#">great</a>predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+      <a href="#" class="btn btn-primary btn-lg">Portfolio</a>
+    </section>
 
-      <!-- It contains an article -->
-      <article>
-        <h2>Article heading</h2>
+  </section>
 
-        <p>Lorem ipt amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
-        <h3>subsection</h3>
+    <section id="giveBackSection" class="section-container give-back-container">
+      <h2 class="section-header">Giving Back</h2>
+      <p class="lead text-light">Vlogs, Community Norms Game, Resource Directory Or Explanation Of Why Giving Back Is Good With A Link To Site That Can Give Back To Visitors</p>
+      <a href="#" class="btn btn-default btn-lg">Vlog Page</a>
+      <img src="" alt="" />
 
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
 
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+  </section>
+  <section id="expolore-container" class="expolore-section ">
 
-        <h3>Another subsection</h3>
+    <section id="exploreSection" class="section-container explore-container">
+      <a>
+        <article id="termsArticle" class="article-container terms-container">
+          <h3>
+            Terms
+          </h3>
 
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+        </article>
+      </a>
+      <a>
+        <article id="reflectionArticle" class="article-container reflection-container">
+          <h3>
+            Reflections
+          </h3>
 
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-      </article>
+        </article>
+      </a>
 
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Related</h2>
+      <a>
+        <article id="myBrothersArticle" class="article-container my-brothers-container">
+          <h3>
+            Know My Brothers
+          </h3>
 
-        <ul>
-          <li><a href="#">Oh I do like to be beside the seaside</a></li>
-          <li><a href="#">Oh I do like to be beside the sea</a></li>
-          <li><a href="#">Although in the North of England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
-        </ul>
-      </aside>
+        </article>
+      </a>
 
-    </main>
+    </section>
 
-    <!-- And here is our main footer that is used across all the pages of our website -->
+    <article id="terms-container" class="term-section">
 
-    <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </article>
+    <article id="reflection-container" class="reflection-section">
+
+    </article>
+    <article id="mybrothers-container" class="mybrothers-section">
+
+    </article>
+  </section>
+  <section id="future-container" class="future-section ">
+
+    <section id="futureSection" class="section-container future-plans-container">
+      <img src="" />
+      <h2 class="section-header"> My Future Plans</h2>
+      <p class="lead text-muted">Paragraph of your next steps, what you would like to get done through program or after high school, or what you want to be in the future.</p>
+      <a href="#" class="btn btn-primary btn-lg">Get Information</a>
+
+    </section>
+
+  </section>
+  <footer id="footer-container" class="footer-section ">
+    <footer id="footerSection" class="footer-container ">
+      <section id="contactForm" class="footer-subsection contact-section">
+        <h1 class="form-section-header">CONTACT</h1>
+        <div>
+          <form class="contact-form" role="form" method="post" action="">
+            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            </button>
+          </form>
+        </div>
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Seattle | WA</span></i></li>
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">emailme@gmail.com</a></span></i></li>
+          </ul>
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+      <section id="copyrightSection" class="footer-subsection copyright-section">
+        <p>Copyright &copy; Example.com 2015</p>
+      </section>
     </footer>
 
-  </body>
-</html>
+
+
+  </footer>
+
+
+
+  </ </body> </html>
