@@ -4,11 +4,21 @@
 <head>
   <meta charset="utf-8">
 
-  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,100,300' >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="css/navbar.css">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!-- External Links From Internal Folders -->
+  <link rel="stylesheet" href="/css/master.css">
+  <link rel="stylesheet" href="css/portfolio.css" >
+  <link rel="stylesheet" href="css/sign_up.css" >
+  <link rel="stylesheet" href="css/contact_form.css" >
 
 
 
@@ -16,28 +26,54 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li>
-        <ul >
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
+  <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
 
+      <!-- Logo and responsive toggle -->
+      <div class="navbar-header">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <span class="glyphicon glyphicon-fire"></span>
+          LOGO
+        </a>
+        <!-- Responsive Navigation Button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div><!-- /.navbar-header -->
+
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about_me">About Me</a>
+          </li>
+          <li>
+            <a href="#giving_back">Giving Back</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learned <span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="about-us">
+              <li><a href="terms_page.html">Terms</a></li>
+              <li><a href="#">Reflections</a></li>
+              <li><a href="#">Know My Brothers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#contact_me">Contact</a>
+          </li>
         </ul>
+      </div><!-- /.navbar-collapse -->
 
-
-      </li>
-    </ul>
-  </div>
-</nav>
+    </div><!-- /.container -->
+  </nav>
 
 
 
