@@ -18,9 +18,20 @@ window.addEventListener( 'DOMContentLoaded', function () {
         status.innerHTML = 'You rolled ' + diceTotal + '.';
 
         if ( side1 === side2 ) {
-            status.innerHTML += ' Doubles! You get a free turn!';
+            status.innerHTML += ' Its a draw! ';
         }
-    }
+        else if ( side1 > side2 ) {
+status.innerHTML += 'Player 1 Wins';
+        }
+        else if ( side1 < side2 ) {
+
+
+          status.innerHTML += 'Player 2 Wins';
+
+        }
+}
+
+
 
     buttonRoolDice.addEventListener( 'click', rollDice, false );
 
