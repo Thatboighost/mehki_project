@@ -1,3 +1,13 @@
 body{
-background-image: url("../images/dope.jpg");
+  background-image: url('../images/goku.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat:  no-repeat;
+}
+h1{
+  height: 20px;
+  color: white:
 }
