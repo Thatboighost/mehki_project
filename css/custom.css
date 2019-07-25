@@ -4,20 +4,20 @@ body {
     height: 100%;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;  position: relative;
     min-height: auto;
-      text-align: center;
-      color: #fff;
-      background-image: url('../images/scar.jpg');
-      background-position: center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-      -o-background-size: cover;
-
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/scar.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 a {
-    color: yellowgreen;
+    color:000;
     -webkit-transition: all 5s;
     -moz-transition: all 5s;
     transition: all 5s;
