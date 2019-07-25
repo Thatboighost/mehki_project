@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <link rel="stylesheet" href="css/custom.css">
+
   <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,100,300' >
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" >
@@ -50,7 +50,7 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="active">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
             <a href="#about_me">About Me</a>
@@ -61,19 +61,24 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learned <span class="caret"></span></a>
             <ul class="dropdown-menu" aria-labelledby="about-us">
-              <li><a href="terms_page.html">Terms</a></li>
-              <li><a href="#">Reflections</a></li>
-              <li><a href="#">Know My Brothers</a></li>
+              <li><a href="../R.html">Resource</a></li>
+              <li><a href="../diceGame.html">diceGame</a></li>
+              <li><a href="../Drumkit.html">Drumkitgame</a></li>
+              <li><a href="../Simongame/index.html">Simon game</a></li>
+              <li><a href="../flashcard.html">flashcard game</a></li>
             </ul>
           </li>
           <li>
-            <a href="#contact_me">Contact</a>
+
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
 
     </div><!-- /.container -->
   </nav>
+  <br>
+  <br>
+  <br>
 
 
 
@@ -97,8 +102,7 @@
     Yes all of those shows are Anime and if you need some new anime to watch hit me up
     just fact about me</p>
   <hr>
-  <h3>My hobbies/<a href="contact.html">contact</a> </h3>
-  <ul>
+  <h3>My hobbies
 
     <li> Video gaming </li>
     <li>sleeping </li>
@@ -141,14 +145,41 @@
     <p>Great with Dogs </p>
     <p>Great at lesting</p>
 
-    <h2>Automatic Slideshow</h2>
-    <p>Change image every 2 seconds:</p>
+    <script src="js/diceGame.js" charset="utf-8"></script>
+    <script>
+      document.querySelector('.img__btn').addEventListener('click', function() {
+        document.querySelector('.cont').classList.toggle('s--signup');
+      });
+      // Get the modal
+      var modal = document.getElementById("myModal");
 
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("registration");
+      // var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function() {
+        modal.style.display = "block";
+        // modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
 
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+    </script>
 
-  </ol>
-    <script src="js/sliders.js" ></script>
-</body>
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
 
-</html>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="js/custom.js"></script>

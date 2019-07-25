@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resources</title>
+    <!-- Custom Fonts from Google -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,100,300' >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,400,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+
+<br>
+<br>
+
+<br />
+<p><a href="https://www.w3schools.com/">W3 schools</a></p>
+<p>Helped me with stuff i did not undersand </p>
+<hr />
+<br />
+
+
+<br />
+<p><a href="https://codepen.io/">Code Pen</a></p>
+<p>Helped me test my website</p>
+<hr />
+<br />
+
+
+<br />
+<p><a href="https://github.com/">Github</a></p>
+<p>Helped code my website</p>
+<hr />
+<br />
+
+
+<br />
+<p><a href="https://docs.google.com/presentation/d/1YUU2tR88CNa1VOCyqEoQXqkcinggs301EvKDoYWEv-I/edit">Module 6</a></p>
+<p>The basics</p>
+<hr />
+<br />
+
+
+<br />
+<p><a href="http://flukeout.github.io/">Warmups</a></p>
+<p>We had to do this before we started real coding</p>
+<hr />
+<br />
+
+
+<br />
+<p><a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/e/quiz--simple-css-selectors">khanacademy</a></p>
+<p>teaches us about html</p>
+<hr />
+<br />
+
+<p><a href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/">Udemy Videos</a></p>
+<p>Helped code my website</p>
+<hr />
+<br />
+
+<p><a href="https://whatpixel.com/css-learning-games/">CSS</a></p>
+<p>teachs me about access</p>
+<hr />
+<br />
+
+<p><a href="https://auth.udacity.com/sign-in?next=https%3A%2F%2Fclassroom.udacity.com%2Fauthenticated">udacity Videos</a></p>
+<p>Helped code my website</p>
+<hr />
+<br />
+
+<p><a href="https://htmlcolorcodes.com/color-picker/">this a hex code color picker/a></p>
+<p>you need hex to change color of background or text</p>
+<hr />
+<br />
+
+<p><a href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/">Udemy Videos</a></p>
+<p>Helped code my website</p>
+<hr />
+<br />
+
+
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+
+        <!-- Logo and responsive toggle -->
+        <div class="navbar-header">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-fire"></span>
+            LOGO
+          </a>
+          <!-- Responsive Navigation Button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- /.navbar-header -->
+
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="#about_me">About Me</a>
+            </li>
+            <li>
+              <a href="#giving_back">Giving Back</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learned <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about-us">
+                <li><a href="../R.html">Resource</a></li>
+                <li><a href="../diceGame.html">diceGame</a></li>
+                <li><a href="../Drumkit.html">Drumkitgame</a></li>
+                <li><a href="../Simongame/index.html">Simon game</a></li>
+                <li><a href="../flashcard.html">flashcard game</a></li>
+
+              </ul>
+            </li>
+            <li>
+              <a href="#contact_me">Contact</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+<ul>
+  <li><a href=""></a></li>
+</ul>
+  </body>
+  <script>
+    document.querySelector('.img__btn').addEventListener('click', function() {
+      document.querySelector('.cont').classList.toggle('s--signup');
+    });
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("registration");
+    // var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function() {
+      modal.style.display = "block";
+      // modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  </script>
+
+  <!-- jQuery -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Custom Javascript -->
+  <script src="js/custom.js"></script>
+</html>

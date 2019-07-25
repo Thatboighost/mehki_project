@@ -5,9 +5,103 @@
   <link rel="stylesheet" href="css/reflection.css">
   <meta charset="utf-8">
   <title></title>
+  <!-- Custom Fonts from Google -->
+  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,100,300' >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Navigation Bar Container -->
+  <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <!-- Logo and responsive toggle -->
+      <div class="navbar-header">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <span class="glyphicon glyphicon-fire"></span>
+          LOGO
+        </a>
+        <!-- Responsive Navigation Button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div><!-- /.navbar-header -->
+
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#about_me">About Me</a>
+          </li>
+          <li>
+            <a href="#giving_back">Giving Back</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learned <span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="about-us">
+          <li><a href="R.html">Resource</a></li>
+          <li><a href="../R.html">Resource</a></li>
+          <li><a href="../diceGame.html">diceGame</a></li>
+          <li><a href="../Drumkit.html">Drumkitgame</a></li>
+          <li><a href="../Simongame/index.html">Simon game</a></li>
+          <li><a href="../flashcard.html">flashcard game</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#contact_me">Contact</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
+    </div><!-- /.container -->
+  </nav>
+  <br>
+  <br>
+  <div class="heading-container">
+    <h1>What ent do you look up to </h1>
+  </div>
+
+  <div class="mane-section">
+    <div class="keyterms-container">
+
+      <h4>Key terms</h4>
+
+
+    </div>
+    <div class="main-subsection">
+      <div class="img-container">
+        <img src="" alt="">
+      </div>
+      <div class="reflecion-container">
+        <h4>Write Your Reflection to the Module in the space provided</h4>
+        <p>The businessman i look up to is my dad. The reason I look to my dad is because he shows me how  to get up every even on off days to start grinding. Everyday after the hds program I go to his job and help him out and sometimes he will pay me money . By him doing this it's showing how to get up and make that money and work for it . And my dad always tells me original and if my or my brother wants to make are own business he will deport us all the way. The reason why my dad started his own business is because he kinda wanted a haircut every day so he can look fresh every dad for the girls. So his older cousin was a barber and he gave him a pair of clippers and told him to cut his one shit and he just started cutting his own hair in the bathroom. So that's how he became a barber  </p>
+      </div>
+      <div class="links-container">
+        <h4>Helpful Links: [At least 2]</h4>
+        <div class="helpful-container">
+          <ul>
+            <li><a href="https://www.linkedin.com/company/experture"></a>ent</li>
+            <li><a href="https://www.merriam-webster.com/dictionary/look%20up%20to"></a>look</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="heading-container">
     <h1>How to treat a women </h1>
   </div>
@@ -38,6 +132,38 @@
       </div>
     </div>
   </div>
+
+  <div class="heading-container">
+    <h1>How to treat a women </h1>
+  </div>
+
+  <div class="mane-section">
+    <div class="keyterms-container">
+
+      <h4>Key terms</h4>
+
+
+    </div>
+    <div class="main-subsection">
+      <div class="img-container">
+        <img src="images/women.Jpg" alt="">
+      </div>
+      <div class="reflecion-container">
+        <h4>Write Your Reflection to the Module in the space provided</h4>
+        <p></p>
+      </div>
+      <div class="links-container">
+        <h4>Helpful Links: [At least 2]</h4>
+        <div class="helpful-container">
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="heading-container">
     <h1>Trust</h1>
   </div>
@@ -77,6 +203,43 @@
 
 
 
+  <script>
+    document.querySelector('.img__btn').addEventListener('click', function() {
+      document.querySelector('.cont').classList.toggle('s--signup');
+    });
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("registration");
+    // var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function() {
+      modal.style.display = "block";
+      // modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  </script>
+
+  <!-- jQuery -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Custom Javascript -->
+  <script src="js/custom.js"></script>
 
 
 
