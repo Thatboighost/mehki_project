@@ -86,7 +86,7 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 #about_me{
-  background-image: url('.../images/goku.jpg');
+  background-image: url('../images/goku.jpg');
 }
 .content {
     padding: 100px 0;
