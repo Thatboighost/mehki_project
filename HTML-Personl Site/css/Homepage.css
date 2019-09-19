@@ -1,0 +1,58 @@
+a{
+  color: yellowgreen
+}
+
+header{
+  position: relative;
+  width: 100%;
+  min-width: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url("http://inn.spb.ru/images/400/DSC100409979.jpg");
+  background-position: center;
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+background-size: cover;
+-o-background-size:cover:
+
+}
+
+
+
+
+header h1{
+  margin-top:0;
+margin-bottom:20px;
+font-size:50px;
+font-weight: 700;
+}
+
+
+#giveBackSection{
+  background-color:#000;
+}
+
+.section-heading{
+margin-top: 0;
+margin-bottom: 20px;
+
+
+}
+
+.intro-container{
+  color: #fff;
+  background-color: yellowgreen;
+  padding: 70px;
+  text-align: center;
+}
+
+.about-me-container{
+  color: #fff;
+  background-color: #222;
+
+}
+
+.giving-back-container{
+  padding: 20px 0 40px;
+  text-align: center;
+}
